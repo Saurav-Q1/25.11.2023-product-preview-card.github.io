@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Fraunces;
+  src: url(Fraunces-VariableFont_SOFTWONKopszwght.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-VariableFont_wght.ttf);
+}
+body {
+  background-color: #f3eae3;
+}
+div.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 452px;
+  width: 602px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div.photo {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+div.content {
+  margin-left: 50%;
+  height: 100%;
+  padding-left: 34px;
+  padding-right: 18px;
+  line-height: 1;
+}
+p.heading {
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 35px;
+}
+p.txt {
+  font-family: Montserrat;
+  opacity: 0.6;
+}
+p.digit {
+  font-family: Fraunces;
+  color: #3b8167;
+  font-size: 32px;
+  margin-bottom: 23px;
+}
+small {
+  text-decoration: line-through;
+}
+button.price {
+  background-color: #3d8168;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 236px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-family: Montserrat;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+img.addcart {
+  padding-top: 1px;
+  padding-right: 10px;
+}
